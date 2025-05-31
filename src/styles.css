@@ -1,0 +1,25 @@
+.lucky-lp-button {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--background-elevated-base);
+  color: var(--text-subdued);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  line-height: 1;
+}
+
+.lucky-lp-button svg {
+  margin-right: 8px;
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
+  fill: currentColor;
+}
